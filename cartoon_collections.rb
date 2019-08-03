@@ -1,5 +1,9 @@
 def roll_call_dwarves(dwarves)
+  count = 0
+  dwarves.each do |names|
+    puts count names
 
+  end
 end
 
 def summon_captain_planet(planeteer)
