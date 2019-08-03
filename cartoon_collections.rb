@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   count = 0
-  dwarves.each_with_index do |names|
+  dwarves.each_with_index do |names, index|
     puts "#{names}"
     count += 1
 
