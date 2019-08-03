@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planeteer)
   planeteer.map do |words|
-    word.capitalize
+    words.capitalize
   end
 end
 
